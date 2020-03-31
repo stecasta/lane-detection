@@ -1,7 +1,5 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup
-
 ---
 
 **Finding Lane Lines on the Road**
@@ -19,7 +17,7 @@ The goals of this project are the following:
 
 ### Reflection
 
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+### 1. Pipeline Description.
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
 
@@ -30,7 +28,7 @@ If you'd like to include images to show how the pipeline works, here is how to i
 ![alt text][image1]
 
 
-### 2. Identify potential shortcomings with your current pipeline
+### 2. Potential Shortcomings of Current Pipeline.
 
 
 One potential shortcoming would be what would happen when ... 
@@ -38,7 +36,7 @@ One potential shortcoming would be what would happen when ...
 Another shortcoming could be ...
 
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Possible Improvements to Current Pipeline
 
 A possible improvement would be to ...
 
