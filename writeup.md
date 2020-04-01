@@ -8,7 +8,7 @@ The goals of this project are the following:
 
 [//]: # (Image References)
 
-[image0]: ./test_images/solidYellowLeft.jpg =250x "original" 
+[image0]: ./test_images/solidYellowLeft.jpg "original" 
 [image1]: ./test_images_output/1_gray.jpg "gray"
 [image2]: ./test_images_output/2_gauss.jpg "blurred_gray"
 [image3]: ./test_images_output/3_canny.jpg "canny"
@@ -31,7 +31,7 @@ In order to draw a single line on the left and right lanes, I wrote a function `
 Here is an example of how the pipeline works on the "solidYellowLeft" image: 
 
 Original Image
-![alt text0][image0] 
+![alt text0][image0]{ width=50% }
 
 Grayscale Image
 ![alt text1][image1]
