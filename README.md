@@ -26,7 +26,7 @@ Usage
 <!-- Dependencies-->
 **Step 1:** Download the repository `> git clone https://github.com/stecasta/lane-detection.git`
 
-**Step 2:** Open the Jupyter notebook in your browser and navigate to the `P1.ipynb` file. `> jupyter notebook`
+**Step 2:** Open the Jupyter notebook in your browser. `> jupyter notebook`
 
 **Step 3:** A browser window will appear showing the contents of the current directory.  Click on the file called "P1.ipynb".  Another browser window will appear displaying the notebook.  Follow the instructions in the notebook.
 
