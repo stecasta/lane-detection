@@ -38,4 +38,4 @@ A browser window will appear showing the contents of the current directory.  Cli
 License
 ---
 
-
+This project is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT)
