@@ -30,13 +30,21 @@ In order to draw a single line on the left and right lanes, I wrote a function `
 
 Here is an example of how the pipeline works on the "solidYellowLeft" image: 
 
-![alt text0][image0] ![alt text1][image1]
-
+Original Image
+![alt text0][image0] 
+Grayscale Image
+![alt text1][image1]
+Gauss Filter
 ![alt text2][image2]
+Canny Edge Detection
 ![alt text3][image3]
+Region Of Interest
 ![alt text4][image4]
+Hough Lines Detection
 ![alt text5][image5]
+Hough lines shown on original image
 ![alt text6][image6]
+Final output - Lanes highlighted on top of original image
 ![alt text7][image7]
 
 
