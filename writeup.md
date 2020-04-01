@@ -8,7 +8,9 @@ The goals of this project are the following:
 
 [//]: # (Image References)
 
-[image0]: ./test_images/solidYellowLeft.jpg "original" 
+<!--[image0]: ./test_images/solidYellowLeft.jpg "original" -->
+<image0 src="test_images/solidYellowLeft.jpg" width="480" alt="original" />
+
 [image1]: ./test_images_output/1_gray.jpg "gray"
 [image2]: ./test_images_output/2_gauss.jpg "blurred_gray"
 [image3]: ./test_images_output/3_canny.jpg "canny"
