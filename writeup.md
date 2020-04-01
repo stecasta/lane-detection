@@ -33,7 +33,7 @@ Here is an example of how the pipeline works on the "solidYellowLeft" image:
 
 **Original Image**
 <!--![alt text0][image0]-->
-<image0 src="test_images/solidYellowLeft.jpg" width="480" alt="original" />
+<image0 src="./test_images/solidYellowLeft.jpg" width="480" alt="original" />
 
 **Grayscale Image**
 ![alt text1][image1]
