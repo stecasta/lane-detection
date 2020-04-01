@@ -26,7 +26,7 @@ The goals of this project are the following:
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I applied a Gaussian filter. I fed this image to the canny detection algorithm and then selected a region of interest on the output. Afterwards, I used the Hough Transform function and finally, I extrapolated the two lanes from the hough lines and drew them on the original image.
 
-In order to draw a single line on the left and right lanes, I wrote a function `fit_lanes` which takes the hough lines and the approximate point of separation of the lanes and returns the slope and intercept of the two lanes. This function first divides the points based on their position in the image and then applies to them a linear regression with the function `np.polyfit`.
+In order to draw a single line on the left and right lanes, I wrote a function `fit_lanes` which takes the hough lines and the approximate point of separation of the lanes in the image and returns the slope and intercept of the two lanes. This function first divides the points based on their position in the image and then applies to them a linear regression with the function `np.polyfit`.
 
 Here is an example of how the pipeline works on the "solidYellowLeft" image: 
 
@@ -42,7 +42,7 @@ Here is an example of how the pipeline works on the "solidYellowLeft" image:
 
 ### 2. Potential Shortcomings of Current Pipeline.
 
--lane changing, different light conditions(fixed thresholds)
+-lane changing, camera in different position, different light conditions(fixed thresholds)
 One potential shortcoming would be what would happen when ... 
 
 Another shortcoming could be ...
