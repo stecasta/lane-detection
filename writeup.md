@@ -30,16 +30,14 @@ In order to draw a single line on the left and right lanes, I wrote a function `
 
 Here is an example of how the pipeline works on the "solidYellowLeft" image: 
 
-![alt text][image0]
-aa
-![alt text][image1]
-aa
-![alt text][image2]
-![alt text][image3]
-![alt text][image4]
-![alt text][image5]
-![alt text][image6]
-![alt text][image7]
+![alt text0][image0] ![alt text1][image1]
+
+![alt text2][image2]
+![alt text3][image3]
+![alt text4][image4]
+![alt text5][image5]
+![alt text6][image6]
+![alt text7][image7]
 
 
 ### 2. Potential Shortcomings of Current Pipeline.
