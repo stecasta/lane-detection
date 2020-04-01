@@ -17,9 +17,11 @@ This repository contains:
 1. A jupyuter notebook with the code.
 <!---2. An HTML file with code already runned??-->
 
-2. A writeup, which describes the pipeline in detail and identifies shortcomings while suggesting possible improvements
+2. A writeup, which describes the pipeline in detail and identifies shortcomings while suggesting possible improvements.
 
 3. 4 folders with the images and videos used to tune and test the pipeline and the correspondant outputs.
+
+<!-- pipeline??-->
 
 Usage
 ---
