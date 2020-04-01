@@ -30,10 +30,10 @@ In order to draw a single line on the left and right lanes, I wrote a function `
 
 Here is an example of how the pipeline works on the "solidYellowLeft" image: 
 
-Original Image
-![alt text0][image0]{ width=50% }
+**Original Image**
+![alt text0][image0]
 
-Grayscale Image
+**Grayscale Image**
 ![alt text1][image1]
 
 Gaussian Filter
