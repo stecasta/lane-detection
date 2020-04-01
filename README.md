@@ -5,8 +5,6 @@
 
 Overview
 ---
-<!--- Purpouse?
-When we drive, we use our eyes to decide where to go.  The lines on the road that show us where the lanes are act as our constant reference for where to steer the vehicle.  Naturally, one of the first things we would like to do in developing a self-driving car is to automatically detect lane lines using an algorithm.-->
 
 This project implements a pipeline to detect lane lines in images using Python and OpenCV.
 
@@ -15,13 +13,10 @@ Content
 This repository contains:
 
 1. A jupyuter notebook with the code.
-<!---2. An HTML file with code already runned??-->
 
 2. A writeup, which describes the pipeline in detail and identifies shortcomings while suggesting possible improvements.
 
 3. 4 folders with the images and videos used to tune and test the pipeline and the correspondant outputs.
-
-<!-- pipeline??-->
 
 Usage
 ---
