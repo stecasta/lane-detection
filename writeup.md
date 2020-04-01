@@ -24,7 +24,7 @@ The goals of this project are the following:
 
 ### 1. Pipeline Description.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I applied a Gaussian filter. I fed this image to the canny detection algorithm and then select a region of interest on the output. Afterwards I used the Hough Transform function and finally, I extrapolated the two lanes from the hough lines and drew them on the original image.
+My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I applied a Gaussian filter. I fed this image to the canny detection algorithm and then selected a region of interest on the output. Afterwards I used the Hough Transform function and finally, I extrapolated the two lanes from the hough lines and drew them on the original image.
 
 In order to draw a single line on the left and right lanes, I wrote a function `fit_lanes` which takes the hough lines and the approximate point of separation of the lanes and returns the slope and intercept of the two lanes. This function first divides the points based on their position in the image and then applies to them a linear regression with the function `np.polyfit`.
 
