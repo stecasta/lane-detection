@@ -59,15 +59,15 @@ Here is an example of how the pipeline works on the "solidYellowLeft" image:
 
 One potential shortcoming would be what would happen when the car is changing lanes. This comes from the fact that we define a region of interest and that we use the position of the lanes in the image to distinguish between them. 
 
-Another shortcoming could be what would happen the lanes aren't straight and in particular when there are sharp turns. This because we specifically look for lines in our pipeline.
+Another shortcoming could be what would happen when the lanes aren't straight and in particular when there are sharp turns. This because we specifically look for lines in our pipeline.
 
-Finally, all the parameters are hard coded, therefore they are fine-tuned for some specific conditions. It follows that we don't have any guarantee that they would work for different settings (e.g. different light condition).
+Finally, all the parameters are hard coded, therefore they are fine-tuned for some specific conditions. It follows that we don't have any guarantee that they would work for different settings (e.g. different light conditions).
 
 ### 3. Possible Improvements to Current Pipeline
 
-A possible improvement would be to avoid using the region of interest mask when switching lanes and to distinguish between the two lanes with another criteria rather then considering their position in the image. For example one could use the slope of the lines as a discriminant. (I implement this approach but I wasn't able to get a stable enough output).
+A possible improvement would be to avoid using the region of interest mask when switching lanes and to distinguish between the two lanes with another criteria rather then considering their position in the image. For example, one could use the slope of the lines as a discriminant (I implement this approach but I wasn't able to get a stable enough output).
 
-Another potential improvement could be to try to fit a more generic shape to the edges rather than only considering lines.
+Another potential improvement could be to try to fit a more generic shape to the edges instead of only considering lines.
 
-Finally, to have a more robust code, it is worth it considering to use a deep learning approach, training the network on as many conditions as possible.
+Finally, to have a more robust code, it is worth considering to use a deep learning approach, training the network on as many conditions as possible.
 
