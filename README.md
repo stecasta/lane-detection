@@ -35,4 +35,4 @@ If you want to process your own video, place it in the `test_videos` folder and 
 License
 ---
 
-This project is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT)
+This project is licensed under the terms of the [MIT license](https://opensource.org/licenses/MIT).
