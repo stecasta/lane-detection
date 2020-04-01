@@ -14,7 +14,7 @@ Content
 ---
 This repository contains:
 
-1. An jupyuter notebook with the code.
+1. A jupyuter notebook with the code.
 <!---2. An HTML file with code already runned??-->
 
 2. A writeup, which describes the pipeline in detail and identifies shortcomings while suggesting possible improvements
