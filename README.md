@@ -18,6 +18,12 @@ This repository contains:
 
 3. 4 folders with the images and videos used to tune and test the pipeline and the correspondant outputs.
 
+Dependencies
+---
+* Numpy
+* Matplotlib
+* OpenCV
+
 Usage
 ---
 <!-- Dependencies-->
