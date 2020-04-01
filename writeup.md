@@ -31,7 +31,9 @@ In order to draw a single line on the left and right lanes, I wrote a function `
 Here is an example of how the pipeline works on the "solidYellowLeft" image: 
 
 ![alt text][image0]
+aa
 ![alt text][image1]
+aa
 ![alt text][image2]
 ![alt text][image3]
 ![alt text][image4]
