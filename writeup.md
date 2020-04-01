@@ -11,7 +11,7 @@ The goals of this project are the following:
 [image0]: ./test_images/solidYellowLeft.jpg "original"
 [image1]: ./test_images_output/1_gray.jpg "gray"
 [image2]: ./test_images_output/2_gauss.jpg "blurred_gray"
-[image]: ./test_images_output/3_canny.jpg "canny"
+[image3]: ./test_images_output/3_canny.jpg "canny"
 [image4]: ./test_images_output/4_ROI.jpg "roi"
 [image5]: ./test_images_output/5_hough.jpg "hough"
 [image6]: ./test_images_output/6_scattered.jpg "scattered"
@@ -34,7 +34,7 @@ Original Image
 ![alt text0][image0] 
 Grayscale Image
 ![alt text1][image1]
-Gauss Filter
+Gaussian Filter
 ![alt text2][image2]
 Canny Edge Detection
 ![alt text3][image3]
