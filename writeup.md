@@ -36,22 +36,22 @@ Here is an example of how the pipeline works on the "solidYellowLeft" image:
 **Grayscale Image**
 ![alt text1][image1]
 
-Gaussian Filter
+**Gaussian Filter**
 ![alt text2][image2]
 
-Canny Edge Detection
+**Canny Edge Detection**
 ![alt text3][image3]
 
-Region Of Interest
+**Region Of Interest**
 ![alt text4][image4]
 
-Hough Lines Detection
+**Hough Lines Detection**
 ![alt text5][image5]
 
-Hough lines shown on original image
+**Hough lines shown on original image**
 ![alt text6][image6]
 
-Final output - Lanes highlighted on top of original image
+**Final output - Lanes highlighted on top of original image**
 ![alt text7][image7]
 
 
