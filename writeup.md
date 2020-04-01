@@ -3,7 +3,7 @@
 
 The goals of this project are the following:
 * Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
+* Reflect on the work in a written report
 
 
 [//]: # (Image References)
@@ -24,11 +24,11 @@ The goals of this project are the following:
 
 ### 1. Pipeline Description.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I applied a Gaussian filter. I fed this image to the canny detection algorithm and then select a region of interest on the output. Afterwards I used the Hough Transform function and finally, I extrapolated the two lanes from the hough lines and drew them on the original image.
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
+In order to draw a single line on the left and right lanes, I wrote a function `fit_lanes` which takes the hough lines and the approximate point of separation of the lanes and returns the slope and intercept of the two lanes. This function first divides the points based on their position in the image and then applies to them a linear regression with the function `np.polyfit`.
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+Here is an example of how the pipeline works on the "solidYellowLeft" image: 
 
 ![alt text][image0]
 ![alt text][image1]
@@ -42,7 +42,7 @@ If you'd like to include images to show how the pipeline works, here is how to i
 
 ### 2. Potential Shortcomings of Current Pipeline.
 
-
+-lane changing, different light conditions(fixed thresholds)
 One potential shortcoming would be what would happen when ... 
 
 Another shortcoming could be ...
